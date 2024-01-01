@@ -1,8 +1,36 @@
 ALERT -> gera um alerta na página com alguma mensagem definida pelo programador. Pode ser chamado: window.alert(), ou apenas alert()
 
-CACPTURA DE ELEMENTO DO HTML 0 -> var variavel = document.getElementById("id"); captura o elemento do HTML, que é mostrado pela função variavel.innerHTML.
+CACPTURA DE ELEMENTO DO HTML -> var variavel = document.getElementById("id"); captura o elemento do HTML, que é "mostrado" pela função variavel.innerHTML.
 
 VERIFICAR DOM -> document.addEventListener("DOMContentLoaded", function(){
 
 }); (verifica se o DOM está completamente carregado)
 
+DECLARAR VARIÁVEL -> var (ou let) variavel = valor qualquer; 
+    - Se por ventura o valor for substituído futuramente, o valor anterior será excluído.
+
+    - var é uma variável global independentemente de onde foi criada. 
+    - var pode ser chamada mesmo antes de existir no código
+
+    - let é visível apenas dentro do bloco em que foi criada
+    - também pode ser chamada antes de ser criada
+    - pode ser redeclarada fora de seu escopo, mas não dentro dele
+
+    - A declaração de Strings ocorre por meio de " (aspas duplas), ' (apóstrofos/aspas simples) e ` (crases) -> aspas simples e duplas criam uma string simples, enquanto ` cria um template, que pode ser usado para chamar uma variável.
+
+    - Variáveis podem começar com letras, $ ou _.
+
+    - Pode-se usar letras, acentos e símbolos.
+
+    - Não podem conter espaços.
+
+    - Não podem ser palavras reservadas.
+
+TIPOS -> Tipos de valores (dados)
+    number -> infinity, NaN (números)
+    string (palavras)
+    boolean (true or false)
+    null (vazio)
+    undefined (indefinido)
+    object -> array (objeto)
+    function (funções)
