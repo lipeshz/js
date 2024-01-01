@@ -16,6 +16,3 @@ document.addEventListener("DOMContentLoaded", function(){ // Executa apenas se o
     var mensagemHTML = document.getElementById("mensagem"); // Captura o elemento pelo ID no HTML
     mensagemHTML.innerHTML = "Essa mensagem é um teste."; // Altera o elemento HTML.
 })
-
-
-
