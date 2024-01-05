@@ -30,7 +30,32 @@ TIPOS -> Tipos de valores (dados)
     number -> infinity, NaN (números)
     string (palavras)
     boolean (true or false)
-    null (vazio)
+    null (objeto)
     undefined (indefinido)
     object -> array (objeto)
     function (funções)
+
+CONVERSÃO DE TIPOS -> Number(n), String(n)
+    Number(n) -> de qualquer tipo para números
+    String(n) -> de qualquer tipo para strings
+
+MÉTODOS STRINGS -> métodos
+    .length -> tamanho da string
+    .toUpperCase -> letras maiúsculas
+    .toLowerCase -> letras minúsculas
+    .replace(x, y) -> altera a string
+    .toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) -> trata moedas
+
+MÉTODOS NUMBER -> métodos
+    Math.round -> arredonda 
+    Math.floor -> arredonda para baixo
+    Math.ceil -> arredonda para cima
+    Math.trunc -> quebra o dot float
+    .toFixed(x) -> adiciona casas decimais em forma de string
+
+MÉTODOS ARRAYS -> métodos
+    array.push(variavel) -> adicionar uma variável ao vetor
+    array.join('') -> separa os valores do array na impressão
+
+
+* document.write sobrepõe o site
